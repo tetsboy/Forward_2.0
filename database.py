@@ -9,6 +9,7 @@ client = AsyncIOMotorClient(DATABASE_URI)
 db = client[DATABASE_NAME]
 instance = Instance(db)
 
+#ggsgss
 
 @instance.register
 class Data(Document):
